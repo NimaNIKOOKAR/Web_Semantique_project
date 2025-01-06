@@ -1,0 +1,153 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbpedia:Cadet_Kelly a dbo:Film ;
+    dbo:director dbpedia:Larry_Shaw_\(director\) ;
+    dbo:genre dbpedia:Comedy_film,
+        dbpedia:Romance_film,
+        dbpedia:Teen_film ;
+    dbo:releaseDate "2002"^^xsd:gYear ;
+    foaf:title "Cadet Kelly"@en .
+
+dbpedia:Calvento_Files a dbo:Film ;
+    dbo:director dbpedia:Gilbert_Perez,
+        dbpedia:Jerry_Lopez_Sineneng,
+        dbpedia:Johnny_Manahan,
+        dbpedia:Michael_de_Mesa,
+        dbpedia:Ricky_Davao,
+        dbpedia:Rory_B._Quintos,
+        dbpedia:Wenn_Deramas ;
+    dbo:genre dbpedia:Documentary_film,
+        dbpedia:Drama ;
+    dbo:releaseDate "1995"^^xsd:gYear ;
+    foaf:title "Calvento Files"@en .
+
+dbpedia:Camp_Wilder a dbo:Film ;
+    dbo:director dbpedia:Arlene_Sanford,
+        dbpedia:David_Trainer,
+        dbpedia:Gail_Mancuso,
+        dbpedia:James_Widdoes,
+        dbpedia:Zane_Buzby ;
+    dbo:genre dbpedia:Sitcom ;
+    dbo:releaseDate "1992"^^xsd:gYear ;
+    foaf:title "Camp Wilder"@en .
+
+dbpedia:Campus_\(TV_series\) a dbo:Film ;
+    dbo:director dbpedia:Victoria_Pile ;
+    dbo:genre dbpedia:Sitcom ;
+    dbo:releaseDate "2011"^^xsd:gYear ;
+    foaf:title "Campus (TV series)"@en .
+
+dbpedia:Captain_Barbell_\(2011_TV_series\) a dbo:Film ;
+    dbo:director dbpedia:Dominic_Zapata ;
+    dbo:genre dbpedia:Action_genre,
+        dbpedia:Drama_\(film_and_television\),
+        dbpedia:Fantasy ;
+    dbo:releaseDate "2011"^^xsd:gYear ;
+    foaf:title "Captain Barbell (2011 TV series)"@en .
+
+dbpedia:Capturing_Mary a dbo:Film ;
+    dbo:director dbpedia:Stephen_Poliakoff ;
+    dbo:genre dbpedia:Drama ;
+    dbo:releaseDate "2007"^^xsd:gYear ;
+    foaf:title "Capturing Mary"@en .
+
+dbpedia:CarniK_Con a dbo:Film ;
+    dbo:director dbpedia:Dugan_Ashley ;
+    dbo:genre dbpedia:Comedy ;
+    dbo:releaseDate "2012"^^xsd:gYear ;
+    foaf:title "CarniK Con"@en .
+
+dbpedia:Carrie_\(2002_film\) a dbo:Film ;
+    dbo:director dbpedia:David_Carson_\(director\) ;
+    dbo:genre dbpedia:Horror_film ;
+    dbo:releaseDate "2002"^^xsd:gYear ;
+    foaf:title "Carrie (2002 film)"@en .
+
+dbpedia:Cars_Toons a dbo:Film ;
+    dbo:director dbpedia:John_Lasseter ;
+    dbo:genre dbpedia:Comedy ;
+    dbo:releaseDate "2008"^^xsd:gYear ;
+    foaf:title "Cars Toons"@en .
+
+dbpedia:Power_Rangers_Lightspeed_Rescue a dbo:Film ;
+    dbo:director dbpedia:Isaac_Florentine,
+        dbpedia:Jonathan_Tzachor,
+        dbpedia:Judd_Lynn,
+        dbpedia:Koichi_Sakamoto,
+        dbpedia:Ryuta_Tasaki ;
+    dbo:genre dbpedia:Action_\(genre\),
+        dbpedia:Adventure_\(genre\),
+        dbpedia:Science_fantasy,
+        dbpedia:Superhero_fiction ;
+    dbo:releaseDate "2000"^^xsd:gYear ;
+    foaf:title "Power Rangers Lightspeed Rescue"@en .
+
+dbpedia:Power_Rangers_Mystic_Force a dbo:Film ;
+    dbo:director dbpedia:John_Laing_\(director\),
+        dbpedia:Jonathan_Brough ;
+    dbo:genre dbpedia:Action_fiction,
+        dbpedia:Adventure_fiction,
+        dbpedia:Science_fantasy,
+        dbpedia:Superhero_fiction ;
+    dbo:releaseDate "2006"^^xsd:gYear ;
+    foaf:title "Power Rangers Mystic Force"@en .
+
+dbpedia:Power_Rangers_RPM a dbo:Film ;
+    dbo:director dbpedia:Jonathan_Brough,
+        dbpedia:Peter_Salmon_\(filmmaker\),
+        dbpedia:Vanessa_Alexander ;
+    dbo:genre dbpedia:Action-adventure,
+        dbpedia:Cyberpunk,
+        dbpedia:Dystopian_fiction,
+        dbpedia:Post-apocalyptic,
+        dbpedia:Science_fiction ;
+    dbo:releaseDate "2009"^^xsd:gYear ;
+    foaf:title "Power Rangers RPM"@en .
+
+dbpedia:Power_Rangers_Time_Force a dbo:Film ;
+    dbo:director dbpedia:Isaac_Florentine,
+        dbpedia:Jonathan_Tzachor,
+        dbpedia:Judd_Lynn,
+        dbpedia:Kaizo_Hayashi,
+        dbpedia:Koichi_Sakamoto ;
+    dbo:genre dbpedia:Action_\(genre\),
+        dbpedia:Science_fiction,
+        dbpedia:Superhero_fiction ;
+    dbo:releaseDate "2001"^^xsd:gYear ;
+    foaf:title "Power Rangers Time Force"@en .
+
+dbpedia:Princesses_\(TV_series\) a dbo:Film ;
+    dbo:director dbpedia:Lee_Shallat-Chemel ;
+    dbo:genre dbpedia:Sitcom ;
+    dbo:releaseDate "1991"^^xsd:gYear ;
+    foaf:title "Princesses (TV series)"@en .
+
+dbpedia:Psychoville a dbo:Film ;
+    dbo:director dbpedia:Matt_Lipsey ;
+    dbo:genre dbpedia:Black_comedy,
+        dbpedia:Mystery_fiction,
+        dbpedia:Psychological_horror,
+        dbpedia:Psychological_thriller,
+        dbpedia:Sitcom ;
+    dbo:releaseDate "2009"^^xsd:gYear ;
+    foaf:title "Psychoville"@en .
+
+dbpedia:Páginas_da_Vida a dbo:Film ;
+    dbo:director dbpedia:Jayme_Monjardim ;
+    dbo:genre dbpedia:Family_drama,
+        dbpedia:Slice_of_life,
+        dbpedia:Telenovela ;
+    dbo:releaseDate "2006"^^xsd:gYear ;
+    foaf:title "Páginas da Vida"@en .
+
+dbpedia:Robotech_\(TV_series\) a dbo:Film ;
+    dbo:director dbpedia:Ippei_Kuri ;
+    dbo:genre dbpedia:Epic_\(genre\),
+        dbpedia:Mecha,
+        dbpedia:Space_opera ;
+    dbo:releaseDate "1985"^^xsd:gYear ;
+    foaf:title "Robotech (TV series)"@en .
+
