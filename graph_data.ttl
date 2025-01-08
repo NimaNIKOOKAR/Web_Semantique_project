@@ -1,0 +1,189 @@
+@prefix ns1: <http://example.org/film#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://dbpedia.org/resource/Cabin_by_the_Lake> a ns1:Film ;
+    rdfs:label "cabin by the lake" ;
+    ns1:director <http://dbpedia.org/resource/Po-Chih_Leong> ;
+    ns1:genre <http://dbpedia.org/resource/Horror_film> ;
+    ns1:summary "cabin by the lake is a horror tv movie released in 2000. it tells the story of stanley, played by judd nelson, a script writer who begins killing girls for research for a movie he is writing, where the villain does the same thing. a 2001 sequel titled return to cabin by the lake follows stanley's attempts to make a film based on his previous murders by posing as the film's director." .
+
+<http://dbpedia.org/resource/Cadena_braga> a ns1:Film ;
+    rdfs:label "cadena braga" ;
+    ns1:director <http://dbpedia.org/resource/Alfonso_Rodríguez_(director)> ;
+    ns1:genre <http://dbpedia.org/resource/Telenovela> ;
+    ns1:summary "cadena braga, is an american telenovela created and produced by telemundo 1991." .
+
+<http://dbpedia.org/resource/Cadet_Kelly> a ns1:Film ;
+    rdfs:label "cadet kelly" ;
+    ns1:director <http://dbpedia.org/resource/Larry_Shaw_(director)> ;
+    ns1:genre <http://dbpedia.org/resource/Comedy_film>,
+        <http://dbpedia.org/resource/Romance_film>,
+        <http://dbpedia.org/resource/Teen_film> ;
+    ns1:summary "cadet kelly is a 2002 disney channel original movie starring hilary duff and christy carlson romano. the film premiered with 7.8 million viewers. it is duff's second starring film role, her first being casper meets wendy. this was disney channel's second film filmed in canada." .
+
+<http://dbpedia.org/resource/Cage_Without_a_Key> a ns1:Film ;
+    rdfs:label "cage without a key" ;
+    ns1:director <http://dbpedia.org/resource/Buzz_Kulik> ;
+    ns1:genre <http://dbpedia.org/resource/Drama_(film_and_television)> ;
+    ns1:summary "cage without a key is a 1975 american made-for-television drama film directed by buzz kulik and starring susan dey and sam bottoms, with jonelle allen and lani o'grady in supporting roles. the film premiered on the cbs television network the evening of march 14, 1975, later repeating at various times on the cbs late movie. the film was released on vhs under the title imprisoned women. cage without a key was filmed at las palmas school for girls in commerce, california, now known as the dorothy kirby center. it was a juvenile detention center, not an actual women's prison. many of the extras were actual inmates." .
+
+<http://dbpedia.org/resource/Call_Me_Claus> a ns1:Film ;
+    rdfs:label "call me claus" ;
+    ns1:director <http://dbpedia.org/resource/Peter_Werner> ;
+    ns1:genre <http://dbpedia.org/resource/Comedy_film> ;
+    ns1:summary "call me claus is a 2001 american made-for-television christmas comedy film directed by peter werner and starring whoopi goldberg and nigel hawthorne. the movie involves santa claus (hawthorne) who needs a replacement santa after serving his 200-year reign. he decides on lucy cullins (whoopi goldberg), an eccentric, grouchy shopping network executive, who hires him to promote christmas decorations and presents on the network. the film had its premiere on tnt on december 2, 2001, and was also released on vhs and dvd by columbia tristar home entertainment. the film has since been reran on lifetime, freeform and the hallmark channel." .
+
+<http://dbpedia.org/resource/Calvento_Files> a ns1:Film ;
+    rdfs:label "calvento files" ;
+    ns1:director <http://dbpedia.org/resource/Gilbert_Perez>,
+        <http://dbpedia.org/resource/Jerry_Lopez_Sineneng>,
+        <http://dbpedia.org/resource/Johnny_Manahan>,
+        <http://dbpedia.org/resource/Michael_de_Mesa>,
+        <http://dbpedia.org/resource/Ricky_Davao>,
+        <http://dbpedia.org/resource/Rory_B._Quintos>,
+        <http://dbpedia.org/resource/Wenn_Deramas> ;
+    ns1:genre <http://dbpedia.org/resource/Documentary_film>,
+        <http://dbpedia.org/resource/Drama> ;
+    ns1:summary "calvento files is a philippine crime and investigative documentary drama series which aired on abs-cbn from december 1, 1995 to october 2, 1998. it was hosted by broadcast journalist tony calvento and was replaced by katapat: mayor fred lim. this series is currently streaming on jeepney tv youtube channel every 2nd quarter of the month, 5:00 pm together with kapag may katwiran... ipaglaban mo and star drama theater presents." .
+
+<http://dbpedia.org/resource/Camp_Wilder> a ns1:Film ;
+    rdfs:label "camp wilder" ;
+    ns1:director <http://dbpedia.org/resource/Arlene_Sanford>,
+        <http://dbpedia.org/resource/David_Trainer>,
+        <http://dbpedia.org/resource/Gail_Mancuso>,
+        <http://dbpedia.org/resource/James_Widdoes>,
+        <http://dbpedia.org/resource/Zane_Buzby> ;
+    ns1:genre <http://dbpedia.org/resource/Sitcom> ;
+    ns1:summary "camp wilder is an american television sitcom which aired on abc from september 18, 1992 until february 26, 1993. the premise centered on a young woman who opens up her home to the friends of her younger siblings, who sought it as judgment-free \"hangout\", and who regularly went to her for advice. the series was created by matthew carlson, and produced by a.k.a. productions in association with capital cities entertainment. the show aired as a part of abc's tgif lineup, but was cancelled after 19 episodes due to low ratings. a twentieth episode was produced, but was never aired in the united states. camp wilder was also shown in the uk, spain and germany." .
+
+<http://dbpedia.org/resource/Campus_(TV_series)> a ns1:Film ;
+    rdfs:label "campus (tv series)" ;
+    ns1:director <http://dbpedia.org/resource/Victoria_Pile> ;
+    ns1:genre <http://dbpedia.org/resource/Sitcom> ;
+    ns1:summary "campus is a semi-improvised british television sitcom. it was created by the team behind the sketch show smack the pony and hospital-based sitcom green wing, led by victoria pile who acts as co-writer, producer and director. it is set in the fictitious kirke university and follows the lives of the staff, in particular the power-crazed and callous vice chancellor jonty de wolfe (played by andy nyman), lazy womanising english literature professor matt beer (joseph millson) and newly promoted senior mathematics lecturer imogen moffat (lisa jackson). campus was first broadcast as a television pilot on channel 4 on 6 november 2009, as part of the channel's comedy showcase season of comedy pilots. a full series was later commissioned and commenced airing on 5 april 2011, with the first episode being a re-shot and expanded version of the pilot. when first broadcast many critics claimed it was too similar to green wing and that much of the humour was offensive. however, others praised the show's dark humour and surrealism. campus was cancelled after one series due to poor tv ratings. over the course of the first series (not including the pilot) the average ratings were 554,000 viewers per episode, or 2.99% of the total audience, which is below the channel 4 average." .
+
+<http://dbpedia.org/resource/Captain_America_(1979_film)> a ns1:Film ;
+    rdfs:label "captain america (1979 film)" ;
+    ns1:director <http://dbpedia.org/resource/Rod_Holcomb> ;
+    ns1:genre <http://dbpedia.org/resource/Superhero_film> ;
+    ns1:summary "captain america is a 1979 american made-for-television superhero film loosely based on the marvel comics character of the same name, directed by rod holcomb and starring reb brown. the film was followed by the sequel captain america ii: death too soon, also released in the same year." .
+
+<http://dbpedia.org/resource/Captain_America_II:_Death_Too_Soon> a ns1:Film ;
+    rdfs:label "captain america ii: death too soon" ;
+    ns1:director <http://dbpedia.org/resource/Ivan_Nagy_(director)> ;
+    ns1:genre <http://dbpedia.org/resource/Action_film>,
+        <http://dbpedia.org/resource/Science_fiction>,
+        <http://dbpedia.org/resource/Superhero_film> ;
+    ns1:summary "captain america ii: death too soon is a 1979 american made-for-television superhero film based on the marvel comics character captain america, directed by ivan nagy and starring reb brown. the film was preceded by captain america earlier the same year. it was aired on cbs in two one-hour slots. the first part aired on november 23, 1979, and the second aired the next night, leading into the conclusion of salem's lot." .
+
+<http://dbpedia.org/resource/Captain_Barbell_(2011_TV_series)> a ns1:Film ;
+    rdfs:label "captain barbell (2011 tv series)" ;
+    ns1:director <http://dbpedia.org/resource/Dominic_Zapata> ;
+    ns1:genre <http://dbpedia.org/resource/Action_genre>,
+        <http://dbpedia.org/resource/Drama_(film_and_television)>,
+        <http://dbpedia.org/resource/Fantasy> ;
+    ns1:summary "captain barbell (international title: captain barbell: the return) is a 2011 philippine television drama action fantasy series broadcast by gma network. the series is based on a philippine fictional superhero of the same title by mars ravelo. directed by dominic zapata, it stars richard gutierrez in the title role. it premiered on march 28, 2011 on the network's telebabad line up replacing machete. the series concluded on july 29, 2011 with a total of 88 episodes. it was replaced by time of my life in its timeslot." .
+
+<http://dbpedia.org/resource/Capturing_Mary> a ns1:Film ;
+    rdfs:label "capturing mary" ;
+    ns1:director <http://dbpedia.org/resource/Stephen_Poliakoff> ;
+    ns1:genre <http://dbpedia.org/resource/Drama> ;
+    ns1:summary "capturing mary is a bbc television drama (co-produced by hbo), written and directed by stephen poliakoff, starring maggie smith, david walliams, ruth wilson and danny lee wynter. it was aired on bbc two on 12 november 2007. it is linked, by the central character of joe, to another poliakoff drama, joe's palace, which was first aired on 4 november 2007." .
+
+<http://dbpedia.org/resource/Caravan_of_Courage:_An_Ewok_Adventure> a ns1:Film ;
+    rdfs:label "caravan of courage: an ewok adventure" ;
+    ns1:director <http://dbpedia.org/resource/John_Korty> ;
+    ns1:genre <http://dbpedia.org/resource/Fantasy_film> ;
+    ns1:summary "the ewok adventure is a 1984 american fantasy adventure film based in the star wars universe. it takes place on the moon of endor, and features the ewoks, who help two young human siblings as they try to locate their parents. the film was given a limited international theatrical run, for which it was retitled caravan of courage: an ewok adventure. it was followed by a sequel, ewoks: the battle for endor, in 1985." .
+
+<http://dbpedia.org/resource/Carmen:_A_Hip_Hopera> a ns1:Film ;
+    rdfs:label "carmen: a hip hopera" ;
+    ns1:director <http://dbpedia.org/resource/Robert_Townsend_(actor)> ;
+    ns1:genre <http://dbpedia.org/resource/Musical_film>,
+        <http://dbpedia.org/resource/Romance_film> ;
+    ns1:summary "carmen: a hip hopera is a 2001 american musical romantic drama television film produced by mtv and directed by robert townsend. the film stars beyoncé knowles in her debut acting role (predating her theatrical film debut in austin powers in goldmember), mekhi phifer, mos def, rah digga, wyclef jean, da brat, joy bryant, reagan gomez-preston (who had previously work with townsend on the parent 'hood, which ended two years earlier), jermaine dupri and lil' bow wow. it is based upon the 1875 opera carmen by georges bizet, ludovic halévy and henri meilhac. the film is set in philadelphia and los angeles in modern times and features a mostly original hip-hop/r&b score in place of bizet's opera. the film is the second major african-american adaptation of the opera, the first being the 1943 broadway musical carmen jones and its 1954 academy award-nominated film adaptation." .
+
+<http://dbpedia.org/resource/CarniK_Con> a ns1:Film ;
+    rdfs:label "carnik con" ;
+    ns1:director <http://dbpedia.org/resource/Dugan_Ashley> ;
+    ns1:genre <http://dbpedia.org/resource/Comedy> ;
+    ns1:summary "carnik con (carnivorous kinetic concepts) was an american youtube firearms comedy show known for its videos of firearms used in humorous scenarios and the heavy use of american symbolism. the channel debuted on halloween 2012 and has since garnered a passionate following among gun enthusiasts across the internet. videos typically feature dugan ashley and other members of carnik con conducting tests and evaluating firearms in unlikely, scripted scenarios. the show is typically filmed in missouri where the group is based. carnik con’s video formats can range from music videos to short stories, to infomercials and 20 second shorts. the channel is also known for its firearms related meme development such as skittles and guns, spongebob squarepants duct tape, ryan gosling and operators, and the beer company “freedom america ale.”" .
+
+<http://dbpedia.org/resource/Carolina_Moon_(2007_film)> a ns1:Film ;
+    rdfs:label "carolina moon (2007 film)" ;
+    ns1:director <http://dbpedia.org/resource/Stephen_Tolkin> ;
+    ns1:genre <http://dbpedia.org/resource/Drama_film>,
+        <http://dbpedia.org/resource/Thriller_(genre)> ;
+    ns1:summary "carolina moon is a 2007 american television film directed by stephen tolkin and starring claire forlani and oliver hudson. based on the 2000 nora roberts novel carolina moon, the film is about a woman with psychic visions who returns to her hometown to exorcise her demons and finds both danger and love. carolina moon is part of the nora roberts 2007 movie collection, which also includes angels fall, blue smoke, and montana sky. the movie debuted february 19, 2007 on lifetime television." .
+
+<http://dbpedia.org/resource/Carrie_(2002_film)> a ns1:Film ;
+    rdfs:label "carrie (2002 film)" ;
+    ns1:director <http://dbpedia.org/resource/David_Carson_(director)> ;
+    ns1:genre <http://dbpedia.org/resource/Horror_film> ;
+    ns1:summary "carrie is a 2002 supernatural horror television film, based on the 1974 novel of the same name by stephen king. it is the second film adaptation and a re-imagining of the novel, and the third film in the carrie franchise. the film was written by bryan fuller, directed by david carson, and stars angela bettis in the leading role. in the story, carrie white, a shy girl who is harassed by her schoolmates, disappears and a series of flashbacks reveal what has happened to her. an international co-production film between canada and the united states. carrie was produced by trilogy entertainment group and mgm television at the request of television network nbc. filmed in vancouver, it was commissioned as a stand-alone feature by the network but the studios intended it as a backdoor pilot for a potential television series. the ending of the novel was changed accordingly, but no follow-up series was ever produced. the film premiered on nbc on november 4, 2002, when it was viewed by 12.21 million people. despite the good ratings and two award nominations (a saturn award and asc award), the film was poorly received by film critics. the performances, especially bettis', were praised, but the film was criticized for its poor special effects, lack of a horror atmosphere, and long runtime." .
+
+<http://dbpedia.org/resource/Cars_Toons> a ns1:Film ;
+    rdfs:label "cars toons" ;
+    ns1:director <http://dbpedia.org/resource/John_Lasseter> ;
+    ns1:genre <http://dbpedia.org/resource/Comedy> ;
+    ns1:summary "cars toons is a television series of american computer-animated short films produced by pixar. it features the main characters lightning mcqueen and mater from pixar's cars franchise non-canonically in the original plot. larry the cable guy reprises his role as mater while keith ferguson replaces owen wilson as the voice of lightning mcqueen until the radiator springs 500 ½, when wilson reprises his role. the series premiered on october 27, 2008 on both disney channel, toon disney and abc family. not exclusive to television, the shorts were also released on home media and/or as theatrical shorts. the series ended on may 20, 2014 with the radiator springs 500 ½ being the final short to be made." .
+
+<http://dbpedia.org/resource/Case_Closed_(film)> a ns1:Film ;
+    rdfs:label "case closed (film)" ;
+    ns1:director <http://dbpedia.org/resource/Dick_Lowry> ;
+    ns1:genre <http://dbpedia.org/resource/Detective_fiction>,
+        <http://dbpedia.org/resource/Mystery_film> ;
+    ns1:summary "case closed is a 1988 american made-for-television film. the film starred charles durning and byron allen. byron allen was also the co-writer and co-producer on the film. it was directed by dick lowry. the film was shot in atlanta, georgia, and was broadcast on cbs on april 19, 1988." .
+
+<http://dbpedia.org/resource/Cast_a_Deadly_Spell> a ns1:Film ;
+    rdfs:label "cast a deadly spell" ;
+    ns1:director <http://dbpedia.org/resource/Martin_Campbell> ;
+    ns1:genre <http://dbpedia.org/resource/Fantasy_film> ;
+    ns1:summary "cast a deadly spell (1991) is a horror fantasy detective television film with fred ward, julianne moore, david warner and clancy brown. it was directed by martin campbell, produced by gale anne hurd, and written by joseph dougherty. the original music score was composed by curt sobel. cast a deadly spell combines two genres – eldritch tales of h. p. lovecraft's cthulhu mythos, and film noir mysteries." .
+
+<http://dbpedia.org/resource/Power_Rangers_Lightspeed_Rescue> a ns1:Film ;
+    rdfs:label "power rangers lightspeed rescue" ;
+    ns1:director <http://dbpedia.org/resource/Isaac_Florentine>,
+        <http://dbpedia.org/resource/Jonathan_Tzachor>,
+        <http://dbpedia.org/resource/Judd_Lynn>,
+        <http://dbpedia.org/resource/Koichi_Sakamoto>,
+        <http://dbpedia.org/resource/Ryuta_Tasaki> ;
+    ns1:genre <http://dbpedia.org/resource/Action_(genre)>,
+        <http://dbpedia.org/resource/Adventure_(genre)>,
+        <http://dbpedia.org/resource/Science_fantasy>,
+        <http://dbpedia.org/resource/Superhero_fiction> ;
+    ns1:summary "power rangers lightspeed rescue is an american television series and the eighth season of the power rangers franchise, based on the 23rd super sentai series kyuukyuu sentai gogofive (1999). lightspeed rescue had, for the first time, a power ranger with no super sentai counterpart in the titanium ranger, as there was no regular sixth ranger in gogo v, which makes it the only season to have an american-exclusive sixth ranger." .
+
+<http://dbpedia.org/resource/Power_Rangers_Mystic_Force> a ns1:Film ;
+    rdfs:label "power rangers mystic force" ;
+    ns1:director <http://dbpedia.org/resource/John_Laing_(director)>,
+        <http://dbpedia.org/resource/Jonathan_Brough> ;
+    ns1:genre <http://dbpedia.org/resource/Action_fiction>,
+        <http://dbpedia.org/resource/Adventure_fiction>,
+        <http://dbpedia.org/resource/Science_fantasy>,
+        <http://dbpedia.org/resource/Superhero_fiction> ;
+    ns1:summary "power rangers mystic force is the fourteenth season of the american television series power rangers, based on the japanese 29th super sentai tokusatsu series. the season premiered on february 20, 2006 as part of the jetix block on toon disney. the season is an adaptation of mahō sentai magiranger, and is the only disney-produced season to feature the main villain from its super sentai counterpart." .
+
+<http://dbpedia.org/resource/Power_Rangers_RPM> a ns1:Film ;
+    rdfs:label "power rangers rpm" ;
+    ns1:director <http://dbpedia.org/resource/Jonathan_Brough>,
+        <http://dbpedia.org/resource/Peter_Salmon_(filmmaker)>,
+        <http://dbpedia.org/resource/Vanessa_Alexander> ;
+    ns1:genre <http://dbpedia.org/resource/Action-adventure>,
+        <http://dbpedia.org/resource/Cyberpunk>,
+        <http://dbpedia.org/resource/Dystopian_fiction>,
+        <http://dbpedia.org/resource/Post-apocalyptic>,
+        <http://dbpedia.org/resource/Science_fiction> ;
+    ns1:summary "power rangers rpm is the seventeenth season of the american television series power rangers and is an adaptation of engine sentai go-onger, the thirty-second japanese super sentai series. the season was the eighth and final to air on abc stations, premiering march 7, 2009 on abc kids. due to the low ratings of the preceding season, jungle fury, rpm was also the final season to be produced and distributed by disney and renaissance-atlantic entertainment, putting the series on a one-year hiatus until the premiere of power rangers samurai in 2011. power rangers beast morphers (2019), which was produced by the franchise's current owner hasbro, through its allspark entertainment division, was its direct sequel." .
+
+<http://dbpedia.org/resource/Power_Rangers_Time_Force> a ns1:Film ;
+    rdfs:label "power rangers time force" ;
+    ns1:director <http://dbpedia.org/resource/Isaac_Florentine>,
+        <http://dbpedia.org/resource/Jonathan_Tzachor>,
+        <http://dbpedia.org/resource/Judd_Lynn>,
+        <http://dbpedia.org/resource/Kaizo_Hayashi> ;
+    ns1:genre <http://dbpedia.org/resource/Action_(genre)>,
+        <http://dbpedia.org/resource/Science_fiction>,
+        <http://dbpedia.org/resource/Superhero_fiction> ;
+    ns1:summary "power rangers time force is an american television series and the ninth season of the power rangers franchise, based on the 24th super sentai series mirai sentai timeranger, running for 40 half-hour episodes from february to november 2001. it was the last season to be distributed by saban entertainment. originally, a time force film was planned, but ultimately went unproduced in light of the commercial failure of turbo: a power rangers movie and the purchase of the franchise by disney. however, buena vista home entertainment did release the series' final four episodes as a film-length home video in 2002 entitled the end of time. a video game based on the series was released in november 2001 for playstation, game boy color, and game boy advance." .
+
