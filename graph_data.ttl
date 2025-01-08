@@ -1,59 +1,60 @@
-@prefix film: <http://example.org/film#> .
+@prefix ex: <http://example.org/film#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://dbpedia.org/resource/Ameer_Aadmi_Gharib_Aadmi> rdfs:label "Ameer Aadmi Gharib Aadmi" ;
-    film:actor <http://dbpedia.org/resource/Amjad_Khan_(actor)>,
+<http://dbpedia.org/resource/Ameer_Aadmi_Gharib_Aadmi> rdfs:label "Ameer Aadmi Gharib Aadmi"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Amjad_Khan_(actor)>,
         <http://dbpedia.org/resource/Kader_Khan>,
         <http://dbpedia.org/resource/Parveen_Babi>,
         <http://dbpedia.org/resource/Shatrughan_Sinha>,
         <http://dbpedia.org/resource/Zeenat_Aman> ;
-    film:director <http://dbpedia.org/resource/Amjad_Khan_(actor)> ;
-    film:releaseDate "1985-05-24" .
+    ex:director <http://dbpedia.org/resource/Amjad_Khan_(actor)> ;
+    ex:releaseDate "1985-05-24"^^xsd:date .
 
-<http://dbpedia.org/resource/Ameerin_Aadhi-Bhagavan> rdfs:label "Ameerin Aadhi-Bhagavan" ;
-    film:actor <http://dbpedia.org/resource/Jayam_Ravi>,
+<http://dbpedia.org/resource/Ameerin_Aadhi-Bhagavan> rdfs:label "Ameerin Aadhi-Bhagavan"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Jayam_Ravi>,
         <http://dbpedia.org/resource/Neetu_Chandra>,
         <http://dbpedia.org/resource/Sudha_Chandran> ;
-    film:director <http://dbpedia.org/resource/Ameer_(director)> ;
-    film:releaseDate "2013-02-22" .
+    ex:director <http://dbpedia.org/resource/Ameer_(director)> ;
+    ex:releaseDate "2013-02-22"^^xsd:date .
 
-<http://dbpedia.org/resource/Amelie_or_The_Time_to_Love> rdfs:label "Amelie or The Time to Love" ;
-    film:actor <http://dbpedia.org/resource/Marie-José_Nat> ;
-    film:director <http://dbpedia.org/resource/Michel_Drach> ;
-    film:releaseDate "1963-09-02" .
+<http://dbpedia.org/resource/Amelie_or_The_Time_to_Love> rdfs:label "Amelie or The Time to Love"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Marie-José_Nat> ;
+    ex:director <http://dbpedia.org/resource/Michel_Drach> ;
+    ex:releaseDate "1963-09-02"^^xsd:date .
 
-<http://dbpedia.org/resource/America's_Team> rdfs:label "America's Team" ;
-    film:actor <http://dbpedia.org/resource/Dallas_Cowboys> ;
-    film:director <http://dbpedia.org/resource/NFL_Films> ;
-    film:releaseDate "2003-11-25" .
+<http://dbpedia.org/resource/America's_Team> rdfs:label "America's Team"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Dallas_Cowboys> ;
+    ex:director <http://dbpedia.org/resource/NFL_Films> ;
+    ex:releaseDate "2003-11-25"^^xsd:date .
 
-<http://dbpedia.org/resource/America_Abbayi> rdfs:label "America Abbayi" ;
-    film:actor <http://dbpedia.org/resource/Ashwini_(actress)>,
+<http://dbpedia.org/resource/America_Abbayi> rdfs:label "America Abbayi"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Ashwini_(actress)>,
         <http://dbpedia.org/resource/Charan_Raj>,
         <http://dbpedia.org/resource/Gummadi_Venkateswara_Rao>,
         <http://dbpedia.org/resource/Kaikala_Satyanarayana>,
         <http://dbpedia.org/resource/Radhika_Sarathkumar>,
         <http://dbpedia.org/resource/Rajasekhar_(actor)> ;
-    film:director <http://dbpedia.org/resource/Singeetam_Srinivasa_Rao> ;
-    film:releaseDate "1987-01-01" .
+    ex:director <http://dbpedia.org/resource/Singeetam_Srinivasa_Rao> ;
+    ex:releaseDate "1987-01-01"^^xsd:date .
 
-<http://dbpedia.org/resource/America_Brown_(film)> rdfs:label "America Brown (film)" ;
-    film:actor <http://dbpedia.org/resource/Hill_Harper>,
+<http://dbpedia.org/resource/America_Brown_(film)> rdfs:label "America Brown (film)"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Hill_Harper>,
         <http://dbpedia.org/resource/Natasha_Lyonne>,
         <http://dbpedia.org/resource/Ryan_Kwanten> ;
-    film:director <http://dbpedia.org/resource/Paul_Black_(director)> ;
-    film:releaseDate "2004-05-09",
-        "2005-10-28" .
+    ex:director <http://dbpedia.org/resource/Paul_Black_(director)> ;
+    ex:releaseDate "2004-05-09"^^xsd:date,
+        "2005-10-28"^^xsd:date .
 
-<http://dbpedia.org/resource/American_-_That's_All> rdfs:label "American - That's All" ;
-    film:actor <http://dbpedia.org/resource/Jack_Devereaux>,
+<http://dbpedia.org/resource/American_-_That's_All> rdfs:label "American - That's All"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Jack_Devereaux>,
         <http://dbpedia.org/resource/Walter_Walker_(actor)>,
         <http://dbpedia.org/resource/Winifred_Allen> ;
-    film:director <http://dbpedia.org/resource/Arthur_Rosson> ;
-    film:releaseDate "1917-06-03" .
+    ex:director <http://dbpedia.org/resource/Arthur_Rosson> ;
+    ex:releaseDate "1917-06-03"^^xsd:date .
 
-<http://dbpedia.org/resource/American_Born> rdfs:label "American Born" ;
-    film:actor <http://dbpedia.org/resource/Charles_Cummings_(actor)>,
+<http://dbpedia.org/resource/American_Born> rdfs:label "American Born"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Charles_Cummings_(actor)>,
         <http://dbpedia.org/resource/Chick_Morrison>,
         <http://dbpedia.org/resource/Harry_von_Meter>,
         <http://dbpedia.org/resource/Jack_Richardson_(actor)>,
@@ -61,57 +62,57 @@
         <http://dbpedia.org/resource/Louise_Lester>,
         <http://dbpedia.org/resource/Sydney_Ayres>,
         <http://dbpedia.org/resource/Vivian_Rich> ;
-    film:director <http://dbpedia.org/resource/Lorimer_Johnston> ;
-    film:releaseDate "1913-12-01" .
+    ex:director <http://dbpedia.org/resource/Lorimer_Johnston> ;
+    ex:releaseDate "1913-12-01"^^xsd:date .
 
-<http://dbpedia.org/resource/American_Boyfriends> rdfs:label "American Boyfriends" ;
-    film:actor <http://dbpedia.org/resource/Delia_Breit>,
+<http://dbpedia.org/resource/American_Boyfriends> rdfs:label "American Boyfriends"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Delia_Breit>,
         <http://dbpedia.org/resource/Jason_Blicker>,
         <http://dbpedia.org/resource/John_Wildman_(actor)>,
         <http://dbpedia.org/resource/Liisa_Repo-Martell>,
         <http://dbpedia.org/resource/Margaret_Langrick> ;
-    film:director <http://dbpedia.org/resource/Sandy_Wilson_(director)> ;
-    film:releaseDate "1989-09-11" .
+    ex:director <http://dbpedia.org/resource/Sandy_Wilson_(director)> ;
+    ex:releaseDate "1989-09-11"^^xsd:date .
 
-<http://dbpedia.org/resource/American_Daylight> rdfs:label "American Daylight" ;
-    film:actor <http://dbpedia.org/resource/Koel_Purie>,
+<http://dbpedia.org/resource/American_Daylight> rdfs:label "American Daylight"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Koel_Purie>,
         <http://dbpedia.org/resource/Nick_Moran> ;
-    film:director <http://dbpedia.org/resource/Roger_Christian_(filmmaker)> ;
-    film:releaseDate "2004-07-11",
-        "2004-12-17" .
+    ex:director <http://dbpedia.org/resource/Roger_Christian_(filmmaker)> ;
+    ex:releaseDate "2004-07-11"^^xsd:date,
+        "2004-12-17"^^xsd:date .
 
-<http://dbpedia.org/resource/American_Flyers> rdfs:label "American Flyers" ;
-    film:actor <http://dbpedia.org/resource/Alexandra_Paul>,
+<http://dbpedia.org/resource/American_Flyers> rdfs:label "American Flyers"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Alexandra_Paul>,
         <http://dbpedia.org/resource/David_Marshall_Grant>,
         <http://dbpedia.org/resource/Janice_Rule>,
         <http://dbpedia.org/resource/Kevin_Costner>,
         <http://dbpedia.org/resource/Rae_Dawn_Chong> ;
-    film:director <http://dbpedia.org/resource/John_Badham> ;
-    film:releaseDate "1985-08-16" .
+    ex:director <http://dbpedia.org/resource/John_Badham> ;
+    ex:releaseDate "1985-08-16"^^xsd:date .
 
-<http://dbpedia.org/resource/American_Heart_(film)> rdfs:label "American Heart (film)" ;
-    film:actor <http://dbpedia.org/resource/Donald_Patrick_Harvey>,
+<http://dbpedia.org/resource/American_Heart_(film)> rdfs:label "American Heart (film)"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Donald_Patrick_Harvey>,
         <http://dbpedia.org/resource/Edward_Furlong>,
         <http://dbpedia.org/resource/Lucinda_Jenney> ;
-    film:director <http://dbpedia.org/resource/Martin_Bell_(director)> ;
-    film:releaseDate "1992-09-17",
-        "1993-05-07" .
+    ex:director <http://dbpedia.org/resource/Martin_Bell_(director)> ;
+    ex:releaseDate "1992-09-17"^^xsd:date,
+        "1993-05-07"^^xsd:date .
 
-<http://dbpedia.org/resource/Cabaret_Woman> rdfs:label "Cabaret Woman" ;
-    film:actor <http://dbpedia.org/resource/Carmen_Sevilla>,
+<http://dbpedia.org/resource/Cabaret_Woman> rdfs:label "Cabaret Woman"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Carmen_Sevilla>,
         <http://dbpedia.org/resource/José_María_Rodero> ;
-    film:director <http://dbpedia.org/resource/Pedro_Lazaga> ;
-    film:releaseDate "1974-12-02" .
+    ex:director <http://dbpedia.org/resource/Pedro_Lazaga> ;
+    ex:releaseDate "1974-12-02"^^xsd:date .
 
-<http://dbpedia.org/resource/Caddie_(film)> rdfs:label "Caddie (film)" ;
-    film:actor <http://dbpedia.org/resource/Helen_Morse>,
+<http://dbpedia.org/resource/Caddie_(film)> rdfs:label "Caddie (film)"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Helen_Morse>,
         <http://dbpedia.org/resource/Jack_Thompson_(actor)>,
         <http://dbpedia.org/resource/Jacki_Weaver> ;
-    film:director <http://dbpedia.org/resource/Donald_Crombie> ;
-    film:releaseDate "1976-04-01" .
+    ex:director <http://dbpedia.org/resource/Donald_Crombie> ;
+    ex:releaseDate "1976-04-01"^^xsd:date .
 
-<http://dbpedia.org/resource/Cadet_Kelly> rdfs:label "Cadet Kelly" ;
-    film:actor <http://dbpedia.org/resource/Aimee_Garcia>,
+<http://dbpedia.org/resource/Cadet_Kelly> rdfs:label "Cadet Kelly"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Aimee_Garcia>,
         <http://dbpedia.org/resource/Andrea_Lewis>,
         <http://dbpedia.org/resource/Christy_Carlson_Romano>,
         <http://dbpedia.org/resource/Gary_Cole>,
@@ -119,35 +120,35 @@
         <http://dbpedia.org/resource/Linda_Kash>,
         <http://dbpedia.org/resource/Sarah_Gadon>,
         <http://dbpedia.org/resource/Shawn_Ashmore> ;
-    film:director <http://dbpedia.org/resource/Larry_Shaw_(director)> ;
-    film:genre <http://dbpedia.org/resource/Comedy_film>,
+    ex:director <http://dbpedia.org/resource/Larry_Shaw_(director)> ;
+    ex:genre <http://dbpedia.org/resource/Comedy_film>,
         <http://dbpedia.org/resource/Romance_film>,
         <http://dbpedia.org/resource/Teen_film> ;
-    film:releaseDate "2002-03-08" .
+    ex:releaseDate "2002-03-08"^^xsd:date .
 
-<http://dbpedia.org/resource/Caesar_and_Cleopatra_(film)> rdfs:label "Caesar and Cleopatra (film)" ;
-    film:actor <http://dbpedia.org/resource/Claude_Rains>,
+<http://dbpedia.org/resource/Caesar_and_Cleopatra_(film)> rdfs:label "Caesar and Cleopatra (film)"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Claude_Rains>,
         <http://dbpedia.org/resource/Vivien_Leigh> ;
-    film:director <http://dbpedia.org/resource/Gabriel_Pascal> ;
-    film:releaseDate "1945-12-11",
-        "1946-09-06",
-        "1946-09-16" .
+    ex:director <http://dbpedia.org/resource/Gabriel_Pascal> ;
+    ex:releaseDate "1945-12-11"^^xsd:date,
+        "1946-09-06"^^xsd:date,
+        "1946-09-16"^^xsd:date .
 
-<http://dbpedia.org/resource/Cairo_(1942_film)> rdfs:label "Cairo (1942 film)" ;
-    film:actor <http://dbpedia.org/resource/Jeanette_MacDonald>,
+<http://dbpedia.org/resource/Cairo_(1942_film)> rdfs:label "Cairo (1942 film)"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Jeanette_MacDonald>,
         <http://dbpedia.org/resource/Robert_Young_(actor)> ;
-    film:director <http://dbpedia.org/resource/W._S._Van_Dyke> ;
-    film:releaseDate "1942-08-17" .
+    ex:director <http://dbpedia.org/resource/W._S._Van_Dyke> ;
+    ex:releaseDate "1942-08-17"^^xsd:date .
 
-<http://dbpedia.org/resource/Calendar_(1993_film)> rdfs:label "Calendar (1993 film)" ;
-    film:actor <http://dbpedia.org/resource/Arsinée_Khanjian>,
+<http://dbpedia.org/resource/Calendar_(1993_film)> rdfs:label "Calendar (1993 film)"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Arsinée_Khanjian>,
         <http://dbpedia.org/resource/Ashot_Adamyan>,
         <http://dbpedia.org/resource/Atom_Egoyan> ;
-    film:director <http://dbpedia.org/resource/Atom_Egoyan> ;
-    film:releaseDate "1993-06-03" .
+    ex:director <http://dbpedia.org/resource/Atom_Egoyan> ;
+    ex:releaseDate "1993-06-03"^^xsd:date .
 
-<http://dbpedia.org/resource/Calendar_Girl_Murders> rdfs:label "Calendar Girl Murders" ;
-    film:actor <http://dbpedia.org/resource/Alan_Thicke>,
+<http://dbpedia.org/resource/Calendar_Girl_Murders> rdfs:label "Calendar Girl Murders"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Alan_Thicke>,
         <http://dbpedia.org/resource/Barbara_Bosson>,
         <http://dbpedia.org/resource/Barbara_Parkins>,
         <http://dbpedia.org/resource/Claudia_Christian>,
@@ -155,102 +156,102 @@
         <http://dbpedia.org/resource/Robert_Culp>,
         <http://dbpedia.org/resource/Sharon_Stone>,
         <http://dbpedia.org/resource/Tom_Skerritt> ;
-    film:director <http://dbpedia.org/resource/William_A._Graham_(director)> ;
-    film:releaseDate "1984-04-08" .
+    ex:director <http://dbpedia.org/resource/William_A._Graham_(director)> ;
+    ex:releaseDate "1984-04-08"^^xsd:date .
 
-<http://dbpedia.org/resource/Call_Me_Bwana> rdfs:label "Call Me Bwana" ;
-    film:actor <http://dbpedia.org/resource/Anita_Ekberg>,
+<http://dbpedia.org/resource/Call_Me_Bwana> rdfs:label "Call Me Bwana"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Anita_Ekberg>,
         <http://dbpedia.org/resource/Arnold_Palmer>,
         <http://dbpedia.org/resource/Bob_Hope>,
         <http://dbpedia.org/resource/Edie_Adams> ;
-    film:director <http://dbpedia.org/resource/Gordon_Douglas_(director)> ;
-    film:releaseDate "1963-04-04" .
+    ex:director <http://dbpedia.org/resource/Gordon_Douglas_(director)> ;
+    ex:releaseDate "1963-04-04"^^xsd:date .
 
-<http://dbpedia.org/resource/Call_Me_Crazy:_A_Five_Film> rdfs:label "Call Me Crazy: A Five Film" ;
-    film:actor <http://dbpedia.org/resource/Brittany_Snow>,
+<http://dbpedia.org/resource/Call_Me_Crazy:_A_Five_Film> rdfs:label "Call Me Crazy: A Five Film"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Brittany_Snow>,
         <http://dbpedia.org/resource/Jennifer_Hudson>,
         <http://dbpedia.org/resource/Melissa_Leo>,
         <http://dbpedia.org/resource/Octavia_Spencer>,
         <http://dbpedia.org/resource/Sarah_Hyland> ;
-    film:director <http://dbpedia.org/resource/Ashley_Judd>,
+    ex:director <http://dbpedia.org/resource/Ashley_Judd>,
         <http://dbpedia.org/resource/Bonnie_Hunt>,
         <http://dbpedia.org/resource/Bryce_Dallas_Howard>,
         <http://dbpedia.org/resource/Laura_Dern>,
         <http://dbpedia.org/resource/Sharon_Maguire> ;
-    film:releaseDate "2013-04-20" .
+    ex:releaseDate "2013-04-20"^^xsd:date .
 
-<http://dbpedia.org/resource/Call_of_the_Flesh> rdfs:label "Call of the Flesh" ;
-    film:actor <http://dbpedia.org/resource/Ramon_Novarro> ;
-    film:director <http://dbpedia.org/resource/Charles_Brabin> ;
-    film:releaseDate "1930-08-16" .
+<http://dbpedia.org/resource/Call_of_the_Flesh> rdfs:label "Call of the Flesh"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Ramon_Novarro> ;
+    ex:director <http://dbpedia.org/resource/Charles_Brabin> ;
+    ex:releaseDate "1930-08-16"^^xsd:date .
 
-<http://dbpedia.org/resource/Camera_Obscura_(2015_film)> rdfs:label "Camera Obscura (2015 film)" ;
-    film:actor <http://dbpedia.org/resource/Khaled_Abol_Naga> ;
-    film:director <http://dbpedia.org/resource/Nour_Zaki> ;
-    film:releaseDate "2015-05-09" .
+<http://dbpedia.org/resource/Camera_Obscura_(2015_film)> rdfs:label "Camera Obscura (2015 film)"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Khaled_Abol_Naga> ;
+    ex:director <http://dbpedia.org/resource/Nour_Zaki> ;
+    ex:releaseDate "2015-05-09"^^xsd:date .
 
-<http://dbpedia.org/resource/Cameriera_bella_presenza_offresi...> rdfs:label "Cameriera bella presenza offresi..." ;
-    film:actor <http://dbpedia.org/resource/Elsa_Merlini> ;
-    film:director <http://dbpedia.org/resource/Giorgio_Pastina> ;
-    film:releaseDate "1951-11-03" .
+<http://dbpedia.org/resource/Cameriera_bella_presenza_offresi...> rdfs:label "Cameriera bella presenza offresi..."^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Elsa_Merlini> ;
+    ex:director <http://dbpedia.org/resource/Giorgio_Pastina> ;
+    ex:releaseDate "1951-11-03"^^xsd:date .
 
-<http://dbpedia.org/resource/Camille_(1936_film)> rdfs:label "Camille (1936 film)" ;
-    film:actor <http://dbpedia.org/resource/Greta_Garbo>,
+<http://dbpedia.org/resource/Camille_(1936_film)> rdfs:label "Camille (1936 film)"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Greta_Garbo>,
         <http://dbpedia.org/resource/Lionel_Barrymore>,
         <http://dbpedia.org/resource/Robert_Taylor_(American_actor)> ;
-    film:director <http://dbpedia.org/resource/George_Cukor> ;
-    film:releaseDate "1936-12-12" .
+    ex:director <http://dbpedia.org/resource/George_Cukor> ;
+    ex:releaseDate "1936-12-12"^^xsd:date .
 
-<http://dbpedia.org/resource/Camille_(1984_film)> rdfs:label "Camille (1984 film)" ;
-    film:actor <http://dbpedia.org/resource/Ben_Kingsley>,
+<http://dbpedia.org/resource/Camille_(1984_film)> rdfs:label "Camille (1984 film)"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Ben_Kingsley>,
         <http://dbpedia.org/resource/Billie_Whitelaw>,
         <http://dbpedia.org/resource/Colin_Firth>,
         <http://dbpedia.org/resource/Denholm_Elliott>,
         <http://dbpedia.org/resource/Greta_Scacchi>,
         <http://dbpedia.org/resource/John_Gielgud>,
         <http://dbpedia.org/resource/Patrick_Ryecart> ;
-    film:director <http://dbpedia.org/resource/Desmond_Davis> ;
-    film:releaseDate "1984-12-11" .
+    ex:director <http://dbpedia.org/resource/Desmond_Davis> ;
+    ex:releaseDate "1984-12-11"^^xsd:date .
 
-<http://dbpedia.org/resource/Camp_Rock> rdfs:label "Camp Rock" ;
-    film:actor <http://dbpedia.org/resource/Alyson_Stoner>,
+<http://dbpedia.org/resource/Camp_Rock> rdfs:label "Camp Rock"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Alyson_Stoner>,
         <http://dbpedia.org/resource/Daniel_Fathers>,
         <http://dbpedia.org/resource/Demi_Lovato>,
         <http://dbpedia.org/resource/Joe_Jonas>,
         <http://dbpedia.org/resource/Maria_Canals-Barrera>,
         <http://dbpedia.org/resource/Meaghan_Martin> ;
-    film:director <http://dbpedia.org/resource/Matthew_Diamond> ;
-    film:releaseDate "2008-06-20" .
+    ex:director <http://dbpedia.org/resource/Matthew_Diamond> ;
+    ex:releaseDate "2008-06-20"^^xsd:date .
 
-<http://dbpedia.org/resource/Camp_Rock_2:_The_Final_Jam> rdfs:label "Camp Rock 2: The Final Jam" ;
-    film:actor <http://dbpedia.org/resource/Alyson_Stoner>,
+<http://dbpedia.org/resource/Camp_Rock_2:_The_Final_Jam> rdfs:label "Camp Rock 2: The Final Jam"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Alyson_Stoner>,
         <http://dbpedia.org/resource/Demi_Lovato>,
         <http://dbpedia.org/resource/Joe_Jonas>,
         <http://dbpedia.org/resource/Kevin_Jonas>,
         <http://dbpedia.org/resource/Maria_Canals-Barrera>,
         <http://dbpedia.org/resource/Meaghan_Martin>,
         <http://dbpedia.org/resource/Nick_Jonas> ;
-    film:director <http://dbpedia.org/resource/Paul_Hoen> ;
-    film:releaseDate "2010-09-03" .
+    ex:director <http://dbpedia.org/resource/Paul_Hoen> ;
+    ex:releaseDate "2010-09-03"^^xsd:date .
 
-<http://dbpedia.org/resource/Camp_Wilder> rdfs:label "Camp Wilder" ;
-    film:actor <http://dbpedia.org/resource/Hilary_Swank>,
+<http://dbpedia.org/resource/Camp_Wilder> rdfs:label "Camp Wilder"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Hilary_Swank>,
         <http://dbpedia.org/resource/Jay_Mohr>,
         <http://dbpedia.org/resource/Jerry_O'Connell>,
         <http://dbpedia.org/resource/Margaret_Langrick>,
         <http://dbpedia.org/resource/Mary_Page_Keller>,
         <http://dbpedia.org/resource/Meghann_Haldeman>,
         <http://dbpedia.org/resource/Tina_Majorino> ;
-    film:director <http://dbpedia.org/resource/Arlene_Sanford>,
+    ex:director <http://dbpedia.org/resource/Arlene_Sanford>,
         <http://dbpedia.org/resource/David_Trainer>,
         <http://dbpedia.org/resource/Gail_Mancuso>,
         <http://dbpedia.org/resource/James_Widdoes>,
         <http://dbpedia.org/resource/Zane_Buzby> ;
-    film:genre <http://dbpedia.org/resource/Sitcom> ;
-    film:releaseDate "1992-09-18" .
+    ex:genre <http://dbpedia.org/resource/Sitcom> ;
+    ex:releaseDate "1992-09-18"^^xsd:date .
 
-<http://dbpedia.org/resource/Campus_(TV_series)> rdfs:label "Campus (TV series)" ;
-    film:actor <http://dbpedia.org/resource/Andy_Nyman>,
+<http://dbpedia.org/resource/Campus_(TV_series)> rdfs:label "Campus (TV series)"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Andy_Nyman>,
         <http://dbpedia.org/resource/Chizzy_Akudolu>,
         <http://dbpedia.org/resource/Dolly_Wells>,
         <http://dbpedia.org/resource/Jonathan_Bailey>,
@@ -259,162 +260,162 @@
         <http://dbpedia.org/resource/Lisa_Jackson_(actress)>,
         <http://dbpedia.org/resource/Sara_Pascoe>,
         <http://dbpedia.org/resource/Will_Adamsdale> ;
-    film:director <http://dbpedia.org/resource/Victoria_Pile> ;
-    film:genre <http://dbpedia.org/resource/Sitcom> ;
-    film:releaseDate "2011-04-05" .
+    ex:director <http://dbpedia.org/resource/Victoria_Pile> ;
+    ex:genre <http://dbpedia.org/resource/Sitcom> ;
+    ex:releaseDate "2011-04-05"^^xsd:date .
 
-<http://dbpedia.org/resource/Can_Ellen_Be_Saved> rdfs:label "Can Ellen Be Saved" ;
-    film:actor <http://dbpedia.org/resource/John_Saxon>,
+<http://dbpedia.org/resource/Can_Ellen_Be_Saved> rdfs:label "Can Ellen Be Saved"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/John_Saxon>,
         <http://dbpedia.org/resource/Katherine_Cannon>,
         <http://dbpedia.org/resource/Leslie_Nielsen>,
         <http://dbpedia.org/resource/Louise_Fletcher>,
         <http://dbpedia.org/resource/Michael_Parks> ;
-    film:director <http://dbpedia.org/resource/Harvey_Hart> ;
-    film:releaseDate "1974-02-05" .
+    ex:director <http://dbpedia.org/resource/Harvey_Hart> ;
+    ex:releaseDate "1974-02-05"^^xsd:date .
 
-<http://dbpedia.org/resource/Canario_rojo> rdfs:label "Canario rojo" ;
-    film:actor <http://dbpedia.org/resource/Héctor_Calcaño> ;
-    film:director <http://dbpedia.org/resource/Julio_Porter> ;
-    film:releaseDate "1955-07-21" .
+<http://dbpedia.org/resource/Canario_rojo> rdfs:label "Canario rojo"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Héctor_Calcaño> ;
+    ex:director <http://dbpedia.org/resource/Julio_Porter> ;
+    ex:releaseDate "1955-07-21"^^xsd:date .
 
-<http://dbpedia.org/resource/Candleshoe> rdfs:label "Candleshoe" ;
-    film:actor <http://dbpedia.org/resource/David_Niven>,
+<http://dbpedia.org/resource/Candleshoe> rdfs:label "Candleshoe"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/David_Niven>,
         <http://dbpedia.org/resource/Helen_Hayes>,
         <http://dbpedia.org/resource/Jodie_Foster>,
         <http://dbpedia.org/resource/Leo_McKern>,
         <http://dbpedia.org/resource/Vivian_Pickles> ;
-    film:director <http://dbpedia.org/resource/Norman_Tokar> ;
-    film:releaseDate "1977-12-16" .
+    ex:director <http://dbpedia.org/resource/Norman_Tokar> ;
+    ex:releaseDate "1977-12-16"^^xsd:date .
 
-<http://dbpedia.org/resource/Cannibal_Attack> rdfs:label "Cannibal Attack" ;
-    film:actor <http://dbpedia.org/resource/Bruce_Cowling>,
+<http://dbpedia.org/resource/Cannibal_Attack> rdfs:label "Cannibal Attack"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Bruce_Cowling>,
         <http://dbpedia.org/resource/David_Bruce_(actor)>,
         <http://dbpedia.org/resource/Johnny_Weissmuller> ;
-    film:director <http://dbpedia.org/resource/Lee_Sholem> ;
-    film:releaseDate "1954-11-01" .
+    ex:director <http://dbpedia.org/resource/Lee_Sholem> ;
+    ex:releaseDate "1954-11-01"^^xsd:date .
 
-<http://dbpedia.org/resource/Cannibal_Girls> rdfs:label "Cannibal Girls" ;
-    film:actor <http://dbpedia.org/resource/Andrea_Martin>,
+<http://dbpedia.org/resource/Cannibal_Girls> rdfs:label "Cannibal Girls"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Andrea_Martin>,
         <http://dbpedia.org/resource/Eugene_Levy> ;
-    film:director <http://dbpedia.org/resource/Ivan_Reitman> ;
-    film:releaseDate "1973-06-08" .
+    ex:director <http://dbpedia.org/resource/Ivan_Reitman> ;
+    ex:releaseDate "1973-06-08"^^xsd:date .
 
-<http://dbpedia.org/resource/Cape_of_the_North> rdfs:label "Cape of the North" ;
-    film:actor <http://dbpedia.org/resource/Claude_Jade>,
+<http://dbpedia.org/resource/Cape_of_the_North> rdfs:label "Cape of the North"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Claude_Jade>,
         <http://dbpedia.org/resource/Go_Kato>,
         <http://dbpedia.org/resource/Kinuyo_Tanaka> ;
-    film:director <http://dbpedia.org/resource/Kei_Kumai> ;
-    film:releaseDate "1976-04-03" .
+    ex:director <http://dbpedia.org/resource/Kei_Kumai> ;
+    ex:releaseDate "1976-04-03"^^xsd:date .
 
-<http://dbpedia.org/resource/Captain_Barbell_(2011_TV_series)> rdfs:label "Captain Barbell (2011 TV series)" ;
-    film:actor <http://dbpedia.org/resource/Richard_Gutierrez> ;
-    film:director <http://dbpedia.org/resource/Dominic_Zapata> ;
-    film:genre <http://dbpedia.org/resource/Action_genre>,
+<http://dbpedia.org/resource/Captain_Barbell_(2011_TV_series)> rdfs:label "Captain Barbell (2011 TV series)"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Richard_Gutierrez> ;
+    ex:director <http://dbpedia.org/resource/Dominic_Zapata> ;
+    ex:genre <http://dbpedia.org/resource/Action_genre>,
         <http://dbpedia.org/resource/Drama_(film_and_television)>,
         <http://dbpedia.org/resource/Fantasy> ;
-    film:releaseDate "2011-03-28" .
+    ex:releaseDate "2011-03-28"^^xsd:date .
 
-<http://dbpedia.org/resource/Captain_Blood_(1924_film)> rdfs:label "Captain Blood (1924 film)" ;
-    film:actor <http://dbpedia.org/resource/J._Warren_Kerrigan>,
+<http://dbpedia.org/resource/Captain_Blood_(1924_film)> rdfs:label "Captain Blood (1924 film)"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/J._Warren_Kerrigan>,
         <http://dbpedia.org/resource/Jean_Paige> ;
-    film:director <http://dbpedia.org/resource/David_Smith_(director)> ;
-    film:releaseDate "1924-09-21" .
+    ex:director <http://dbpedia.org/resource/David_Smith_(director)> ;
+    ex:releaseDate "1924-09-21"^^xsd:date .
 
-<http://dbpedia.org/resource/Captain_Midnight,_the_Bush_King> rdfs:label "Captain Midnight, the Bush King" ;
-    film:actor <http://dbpedia.org/resource/Alfred_Rolfe_(director)>,
+<http://dbpedia.org/resource/Captain_Midnight,_the_Bush_King> rdfs:label "Captain Midnight, the Bush King"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Alfred_Rolfe_(director)>,
         <http://dbpedia.org/resource/Lily_Dampier>,
         <http://dbpedia.org/resource/Raymond_Longford> ;
-    film:director <http://dbpedia.org/resource/Alfred_Rolfe_(director)> ;
-    film:releaseDate "1911-02-09" .
+    ex:director <http://dbpedia.org/resource/Alfred_Rolfe_(director)> ;
+    ex:releaseDate "1911-02-09"^^xsd:date .
 
-<http://dbpedia.org/resource/Captain_from_Castile> rdfs:label "Captain from Castile" ;
-    film:actor <http://dbpedia.org/resource/Cesar_Romero>,
+<http://dbpedia.org/resource/Captain_from_Castile> rdfs:label "Captain from Castile"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Cesar_Romero>,
         <http://dbpedia.org/resource/Jean_Peters>,
         <http://dbpedia.org/resource/Tyrone_Power> ;
-    film:director <http://dbpedia.org/resource/Henry_King_(director)> ;
-    film:releaseDate "1947-12-25" .
+    ex:director <http://dbpedia.org/resource/Henry_King_(director)> ;
+    ex:releaseDate "1947-12-25"^^xsd:date .
 
-<http://dbpedia.org/resource/Captive's_Island> rdfs:label "Captive's Island" ;
-    film:actor <http://dbpedia.org/resource/Hosei_Komatsu>,
+<http://dbpedia.org/resource/Captive's_Island> rdfs:label "Captive's Island"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Hosei_Komatsu>,
         <http://dbpedia.org/resource/Kei_Satō>,
         <http://dbpedia.org/resource/Rentarō_Mikuni>,
         <http://dbpedia.org/resource/Shima_Iwashita>,
         <http://dbpedia.org/resource/Taiji_Tonoyama> ;
-    film:director <http://dbpedia.org/resource/Masahiro_Shinoda> ;
-    film:releaseDate "1966-07-02" .
+    ex:director <http://dbpedia.org/resource/Masahiro_Shinoda> ;
+    ex:releaseDate "1966-07-02"^^xsd:date .
 
-<http://dbpedia.org/resource/Capturing_Mary> rdfs:label "Capturing Mary" ;
-    film:actor <http://dbpedia.org/resource/Danny_Lee_Wynter>,
+<http://dbpedia.org/resource/Capturing_Mary> rdfs:label "Capturing Mary"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Danny_Lee_Wynter>,
         <http://dbpedia.org/resource/David_Walliams>,
         <http://dbpedia.org/resource/Maggie_Smith>,
         <http://dbpedia.org/resource/Ruth_Wilson_(actress)> ;
-    film:director <http://dbpedia.org/resource/Stephen_Poliakoff> ;
-    film:genre <http://dbpedia.org/resource/Drama> ;
-    film:releaseDate "2007-11-12" .
+    ex:director <http://dbpedia.org/resource/Stephen_Poliakoff> ;
+    ex:genre <http://dbpedia.org/resource/Drama> ;
+    ex:releaseDate "2007-11-12"^^xsd:date .
 
-<http://dbpedia.org/resource/Caravan_(1934_film)> rdfs:label "Caravan (1934 film)" ;
-    film:actor <http://dbpedia.org/resource/Charles_Boyer>,
+<http://dbpedia.org/resource/Caravan_(1934_film)> rdfs:label "Caravan (1934 film)"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Charles_Boyer>,
         <http://dbpedia.org/resource/Jean_Parker>,
         <http://dbpedia.org/resource/Loretta_Young>,
         <http://dbpedia.org/resource/Phillips_Holmes> ;
-    film:director <http://dbpedia.org/resource/Erik_Charell> ;
-    film:releaseDate "1934-09-28" .
+    ex:director <http://dbpedia.org/resource/Erik_Charell> ;
+    ex:releaseDate "1934-09-28"^^xsd:date .
 
-<http://dbpedia.org/resource/Care_Bears_Movie_II:_A_New_Generation> rdfs:label "Care Bears Movie II: A New Generation" ;
-    film:actor <http://dbpedia.org/resource/Alyson_Court>,
+<http://dbpedia.org/resource/Care_Bears_Movie_II:_A_New_Generation> rdfs:label "Care Bears Movie II: A New Generation"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Alyson_Court>,
         <http://dbpedia.org/resource/Billie_Mae_Richards>,
         <http://dbpedia.org/resource/Chris_Wiggins>,
         <http://dbpedia.org/resource/Cree_Summer>,
         <http://dbpedia.org/resource/Hadley_Kay>,
         <http://dbpedia.org/resource/Maxine_Miller>,
         <http://dbpedia.org/resource/Pam_Hyatt> ;
-    film:director <http://dbpedia.org/resource/Dale_Schott> ;
-    film:releaseDate "1986-03-07",
-        "1986-03-21" .
+    ex:director <http://dbpedia.org/resource/Dale_Schott> ;
+    ex:releaseDate "1986-03-07"^^xsd:date,
+        "1986-03-21"^^xsd:date .
 
-<http://dbpedia.org/resource/CarniK_Con> rdfs:label "CarniK Con" ;
-    film:actor <http://dbpedia.org/resource/Dugan_Ashley> ;
-    film:director <http://dbpedia.org/resource/Dugan_Ashley> ;
-    film:genre <http://dbpedia.org/resource/Comedy> ;
-    film:releaseDate "2012-10-31" .
+<http://dbpedia.org/resource/CarniK_Con> rdfs:label "CarniK Con"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Dugan_Ashley> ;
+    ex:director <http://dbpedia.org/resource/Dugan_Ashley> ;
+    ex:genre <http://dbpedia.org/resource/Comedy> ;
+    ex:releaseDate "2012-10-31"^^xsd:date .
 
-<http://dbpedia.org/resource/Carnival_of_Crime> rdfs:label "Carnival of Crime" ;
-    film:actor <http://dbpedia.org/resource/Alix_Talton>,
+<http://dbpedia.org/resource/Carnival_of_Crime> rdfs:label "Carnival of Crime"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Alix_Talton>,
         <http://dbpedia.org/resource/Jean-Pierre_Aumont>,
         <http://dbpedia.org/resource/Tônia_Carrero> ;
-    film:director <http://dbpedia.org/resource/George_Cahan> ;
-    film:releaseDate "1962-06-05" .
+    ex:director <http://dbpedia.org/resource/George_Cahan> ;
+    ex:releaseDate "1962-06-05"^^xsd:date .
 
-<http://dbpedia.org/resource/Caroline%3F> rdfs:label "Caroline?" ;
-    film:actor <http://dbpedia.org/resource/George_Grizzard>,
+<http://dbpedia.org/resource/Caroline%3F> rdfs:label "Caroline?"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/George_Grizzard>,
         <http://dbpedia.org/resource/Pamela_Reed>,
         <http://dbpedia.org/resource/Stephanie_Zimbalist> ;
-    film:director <http://dbpedia.org/resource/Joseph_Sargent> ;
-    film:releaseDate "1990-04-29" .
+    ex:director <http://dbpedia.org/resource/Joseph_Sargent> ;
+    ex:releaseDate "1990-04-29"^^xsd:date .
 
-<http://dbpedia.org/resource/Carrie_(2002_film)> rdfs:label "Carrie (2002 film)" ;
-    film:actor <http://dbpedia.org/resource/Angela_Bettis>,
+<http://dbpedia.org/resource/Carrie_(2002_film)> rdfs:label "Carrie (2002 film)"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Angela_Bettis>,
         <http://dbpedia.org/resource/Emilie_de_Ravin>,
         <http://dbpedia.org/resource/Kandyse_McClure>,
         <http://dbpedia.org/resource/Patricia_Clarkson>,
         <http://dbpedia.org/resource/Rena_Sofer> ;
-    film:director <http://dbpedia.org/resource/David_Carson_(director)> ;
-    film:genre <http://dbpedia.org/resource/Horror_film> ;
-    film:releaseDate "2002-11-04" .
+    ex:director <http://dbpedia.org/resource/David_Carson_(director)> ;
+    ex:genre <http://dbpedia.org/resource/Horror_film> ;
+    ex:releaseDate "2002-11-04"^^xsd:date .
 
-<http://dbpedia.org/resource/Carry_On_Again_Doctor> rdfs:label "Carry On Again Doctor" ;
-    film:actor <http://dbpedia.org/resource/Barbara_Windsor>,
+<http://dbpedia.org/resource/Carry_On_Again_Doctor> rdfs:label "Carry On Again Doctor"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Barbara_Windsor>,
         <http://dbpedia.org/resource/Charles_Hawtrey_(actor,_born_1914)>,
         <http://dbpedia.org/resource/Hattie_Jacques>,
         <http://dbpedia.org/resource/Jim_Dale>,
         <http://dbpedia.org/resource/Joan_Sims>,
         <http://dbpedia.org/resource/Kenneth_Williams>,
         <http://dbpedia.org/resource/Sid_James> ;
-    film:director <http://dbpedia.org/resource/Gerald_Thomas> ;
-    film:releaseDate "1969-12-02" .
+    ex:director <http://dbpedia.org/resource/Gerald_Thomas> ;
+    ex:releaseDate "1969-12-02"^^xsd:date .
 
-<http://dbpedia.org/resource/Carry_On_Girls> rdfs:label "Carry On Girls" ;
-    film:actor <http://dbpedia.org/resource/Barbara_Windsor>,
+<http://dbpedia.org/resource/Carry_On_Girls> rdfs:label "Carry On Girls"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Barbara_Windsor>,
         <http://dbpedia.org/resource/Bernard_Bresslaw>,
         <http://dbpedia.org/resource/Jack_Douglas_(actor)>,
         <http://dbpedia.org/resource/Jimmy_Logan>,
@@ -426,23 +427,23 @@
         <http://dbpedia.org/resource/Peter_Butterworth>,
         <http://dbpedia.org/resource/Sid_James>,
         <http://dbpedia.org/resource/Valerie_Leon> ;
-    film:director <http://dbpedia.org/resource/Gerald_Thomas> ;
-    film:releaseDate "1973-11-09" .
+    ex:director <http://dbpedia.org/resource/Gerald_Thomas> ;
+    ex:releaseDate "1973-11-09"^^xsd:date .
 
-<http://dbpedia.org/resource/Carry_On_Jatta_(film_series)> rdfs:label "Carry On Jatta (film series)" ;
-    film:actor <http://dbpedia.org/resource/Binnu_Dhillon>,
+<http://dbpedia.org/resource/Carry_On_Jatta_(film_series)> rdfs:label "Carry On Jatta (film series)"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Binnu_Dhillon>,
         <http://dbpedia.org/resource/Gippy_Grewal>,
         <http://dbpedia.org/resource/Gurpreet_Ghuggi>,
         <http://dbpedia.org/resource/Jaswinder_Bhalla>,
         <http://dbpedia.org/resource/Karamjit_Anmol>,
         <http://dbpedia.org/resource/Nasir_Chinyoti> ;
-    film:director <http://dbpedia.org/resource/Smeep_Kang> ;
-    film:releaseDate "2012-07-27",
-        "2018-01-06",
-        "2023-06-29" .
+    ex:director <http://dbpedia.org/resource/Smeep_Kang> ;
+    ex:releaseDate "2012-07-27"^^xsd:date,
+        "2018-01-06"^^xsd:date,
+        "2023-06-29"^^xsd:date .
 
-<http://dbpedia.org/resource/Carry_On_Teacher> rdfs:label "Carry On Teacher" ;
-    film:actor <http://dbpedia.org/resource/Charles_Hawtrey_(actor,_born_1914)>,
+<http://dbpedia.org/resource/Carry_On_Teacher> rdfs:label "Carry On Teacher"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Charles_Hawtrey_(actor,_born_1914)>,
         <http://dbpedia.org/resource/Hattie_Jacques>,
         <http://dbpedia.org/resource/Joan_Sims>,
         <http://dbpedia.org/resource/Kenneth_Connor>,
@@ -450,28 +451,28 @@
         <http://dbpedia.org/resource/Leslie_Phillips>,
         <http://dbpedia.org/resource/Rosalind_Knight>,
         <http://dbpedia.org/resource/Ted_Ray_(comedian)> ;
-    film:director <http://dbpedia.org/resource/Gerald_Thomas> ;
-    film:releaseDate "1959-09-03" .
+    ex:director <http://dbpedia.org/resource/Gerald_Thomas> ;
+    ex:releaseDate "1959-09-03"^^xsd:date .
 
-<http://dbpedia.org/resource/Cars_Toons> rdfs:label "Cars Toons" ;
-    film:actor <http://dbpedia.org/resource/Keith_Ferguson_(voice_actor)>,
+<http://dbpedia.org/resource/Cars_Toons> rdfs:label "Cars Toons"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Keith_Ferguson_(voice_actor)>,
         <http://dbpedia.org/resource/Larry_the_Cable_Guy>,
         <http://dbpedia.org/resource/Owen_Wilson> ;
-    film:director <http://dbpedia.org/resource/John_Lasseter> ;
-    film:genre <http://dbpedia.org/resource/Comedy> ;
-    film:releaseDate "2008-10-27" .
+    ex:director <http://dbpedia.org/resource/John_Lasseter> ;
+    ex:genre <http://dbpedia.org/resource/Comedy> ;
+    ex:releaseDate "2008-10-27"^^xsd:date .
 
-<http://dbpedia.org/resource/Casanova_(1987_film)> rdfs:label "Casanova (1987 film)" ;
-    film:actor <http://dbpedia.org/resource/Faye_Dunaway>,
+<http://dbpedia.org/resource/Casanova_(1987_film)> rdfs:label "Casanova (1987 film)"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Faye_Dunaway>,
         <http://dbpedia.org/resource/Hanna_Schygulla>,
         <http://dbpedia.org/resource/Ornella_Muti>,
         <http://dbpedia.org/resource/Richard_Chamberlain>,
         <http://dbpedia.org/resource/Sylvia_Kristel> ;
-    film:director <http://dbpedia.org/resource/Simon_Langton_(television_director)> ;
-    film:releaseDate "1987-03-01" .
+    ex:director <http://dbpedia.org/resource/Simon_Langton_(television_director)> ;
+    ex:releaseDate "1987-03-01"^^xsd:date .
 
-<http://dbpedia.org/resource/Case_Closed:_The_Fourteenth_Target> rdfs:label "Case Closed: The Fourteenth Target" ;
-    film:actor <http://dbpedia.org/resource/Akira_Kamiya>,
+<http://dbpedia.org/resource/Case_Closed:_The_Fourteenth_Target> rdfs:label "Case Closed: The Fourteenth Target"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Akira_Kamiya>,
         <http://dbpedia.org/resource/Chafurin>,
         <http://dbpedia.org/resource/Gara_Takashima>,
         <http://dbpedia.org/resource/Hirotaka_Suzuoki>,
@@ -487,91 +488,91 @@
         <http://dbpedia.org/resource/Wakana_Yamazaki>,
         <http://dbpedia.org/resource/Wataru_Takagi>,
         <http://dbpedia.org/resource/Yukiko_Iwai> ;
-    film:director <http://dbpedia.org/resource/Kenji_Kodama> ;
-    film:releaseDate "1998-04-18" .
+    ex:director <http://dbpedia.org/resource/Kenji_Kodama> ;
+    ex:releaseDate "1998-04-18"^^xsd:date .
 
-<http://dbpedia.org/resource/Casino_Raiders_II> rdfs:label "Casino Raiders II" ;
-    film:actor <http://dbpedia.org/resource/Andy_Lau>,
+<http://dbpedia.org/resource/Casino_Raiders_II> rdfs:label "Casino Raiders II"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Andy_Lau>,
         <http://dbpedia.org/resource/Dave_Wong>,
         <http://dbpedia.org/resource/Jacklyn_Wu>,
         <http://dbpedia.org/resource/Monica_Chan> ;
-    film:director <http://dbpedia.org/resource/Johnnie_To> ;
-    film:releaseDate "1991-06-13" .
+    ex:director <http://dbpedia.org/resource/Johnnie_To> ;
+    ex:releaseDate "1991-06-13"^^xsd:date .
 
-<http://dbpedia.org/resource/Cass_Timberlane> rdfs:label "Cass Timberlane" ;
-    film:actor <http://dbpedia.org/resource/Lana_Turner>,
+<http://dbpedia.org/resource/Cass_Timberlane> rdfs:label "Cass Timberlane"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Lana_Turner>,
         <http://dbpedia.org/resource/Spencer_Tracy>,
         <http://dbpedia.org/resource/Zachary_Scott> ;
-    film:director <http://dbpedia.org/resource/George_Sidney> ;
-    film:releaseDate "1947-11-06" .
+    ex:director <http://dbpedia.org/resource/George_Sidney> ;
+    ex:releaseDate "1947-11-06"^^xsd:date .
 
-<http://dbpedia.org/resource/Cat_Vs._Rat> rdfs:label "Cat Vs. Rat" ;
-    film:actor <http://dbpedia.org/resource/Adam_Cheng>,
+<http://dbpedia.org/resource/Cat_Vs._Rat> rdfs:label "Cat Vs. Rat"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Adam_Cheng>,
         <http://dbpedia.org/resource/Alexander_Fu_Sheng>,
         <http://dbpedia.org/resource/Gordon_Liu>,
         <http://dbpedia.org/resource/Hsiao_Ho_(actor)>,
         <http://dbpedia.org/resource/Kara_Hui>,
         <http://dbpedia.org/resource/Lau_Kar-wing>,
         <http://dbpedia.org/resource/Lydia_Shum> ;
-    film:director <http://dbpedia.org/resource/Lau_Kar-leung> ;
-    film:releaseDate "1982-09-30" .
+    ex:director <http://dbpedia.org/resource/Lau_Kar-leung> ;
+    ex:releaseDate "1982-09-30"^^xsd:date .
 
-<http://dbpedia.org/resource/Catacombs_(1965_film)> rdfs:label "Catacombs (1965 film)" ;
-    film:actor <http://dbpedia.org/resource/Gary_Merrill>,
+<http://dbpedia.org/resource/Catacombs_(1965_film)> rdfs:label "Catacombs (1965 film)"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Gary_Merrill>,
         <http://dbpedia.org/resource/Georgina_Cookson>,
         <http://dbpedia.org/resource/Jane_Merrow> ;
-    film:director <http://dbpedia.org/resource/Gordon_Hessler> ;
-    film:releaseDate "1965-05-05" .
+    ex:director <http://dbpedia.org/resource/Gordon_Hessler> ;
+    ex:releaseDate "1965-05-05"^^xsd:date .
 
-<http://dbpedia.org/resource/Power_Rangers_Mystic_Force> rdfs:label "Power Rangers Mystic Force" ;
-    film:actor <http://dbpedia.org/resource/Antonia_Prebble>,
+<http://dbpedia.org/resource/Power_Rangers_Mystic_Force> rdfs:label "Power Rangers Mystic Force"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Antonia_Prebble>,
         <http://dbpedia.org/resource/Firass_Dirani>,
         <http://dbpedia.org/resource/John_Tui>,
         <http://dbpedia.org/resource/Melanie_Vallejo>,
         <http://dbpedia.org/resource/Nic_Sampson>,
         <http://dbpedia.org/resource/Richard_Brancatisano> ;
-    film:director <http://dbpedia.org/resource/John_Laing_(director)>,
+    ex:director <http://dbpedia.org/resource/John_Laing_(director)>,
         <http://dbpedia.org/resource/Jonathan_Brough> ;
-    film:genre <http://dbpedia.org/resource/Action_fiction>,
+    ex:genre <http://dbpedia.org/resource/Action_fiction>,
         <http://dbpedia.org/resource/Adventure_fiction>,
         <http://dbpedia.org/resource/Science_fantasy>,
         <http://dbpedia.org/resource/Superhero_fiction> ;
-    film:releaseDate "2006-02-20" .
+    ex:releaseDate "2006-02-20"^^xsd:date .
 
-<http://dbpedia.org/resource/Power_Rangers_Time_Force> rdfs:label "Power Rangers Time Force" ;
-    film:actor <http://dbpedia.org/resource/Edward_Albert>,
+<http://dbpedia.org/resource/Power_Rangers_Time_Force> rdfs:label "Power Rangers Time Force"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Edward_Albert>,
         <http://dbpedia.org/resource/Erin_Cahill>,
         <http://dbpedia.org/resource/Jason_Faunt>,
         <http://dbpedia.org/resource/Michael_Copon>,
         <http://dbpedia.org/resource/Vernon_Wells_(actor)> ;
-    film:director <http://dbpedia.org/resource/Isaac_Florentine>,
+    ex:director <http://dbpedia.org/resource/Isaac_Florentine>,
         <http://dbpedia.org/resource/Jonathan_Tzachor>,
         <http://dbpedia.org/resource/Judd_Lynn>,
         <http://dbpedia.org/resource/Kaizo_Hayashi>,
         <http://dbpedia.org/resource/Koichi_Sakamoto> ;
-    film:genre <http://dbpedia.org/resource/Action_(genre)>,
+    ex:genre <http://dbpedia.org/resource/Action_(genre)>,
         <http://dbpedia.org/resource/Science_fiction>,
         <http://dbpedia.org/resource/Superhero_fiction> ;
-    film:releaseDate "2001-02-03" .
+    ex:releaseDate "2001-02-03"^^xsd:date .
 
-<http://dbpedia.org/resource/Princesses_(TV_series)> rdfs:label "Princesses (TV series)" ;
-    film:actor <http://dbpedia.org/resource/Fran_Drescher>,
+<http://dbpedia.org/resource/Princesses_(TV_series)> rdfs:label "Princesses (TV series)"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Fran_Drescher>,
         <http://dbpedia.org/resource/Julie_Hagerty>,
         <http://dbpedia.org/resource/Twiggy> ;
-    film:director <http://dbpedia.org/resource/Lee_Shallat-Chemel> ;
-    film:genre <http://dbpedia.org/resource/Sitcom> ;
-    film:releaseDate "1991-09-27" .
+    ex:director <http://dbpedia.org/resource/Lee_Shallat-Chemel> ;
+    ex:genre <http://dbpedia.org/resource/Sitcom> ;
+    ex:releaseDate "1991-09-27"^^xsd:date .
 
-<http://dbpedia.org/resource/Power_Rangers_Lightspeed_Rescue> rdfs:label "Power Rangers Lightspeed Rescue" ;
-    film:actor <http://dbpedia.org/resource/Power_Rangers_Lightspeed_Rescue> ;
-    film:director <http://dbpedia.org/resource/Isaac_Florentine>,
+<http://dbpedia.org/resource/Power_Rangers_Lightspeed_Rescue> rdfs:label "Power Rangers Lightspeed Rescue"^^xsd:string ;
+    ex:actor <http://dbpedia.org/resource/Power_Rangers_Lightspeed_Rescue> ;
+    ex:director <http://dbpedia.org/resource/Isaac_Florentine>,
         <http://dbpedia.org/resource/Jonathan_Tzachor>,
         <http://dbpedia.org/resource/Judd_Lynn>,
         <http://dbpedia.org/resource/Koichi_Sakamoto>,
         <http://dbpedia.org/resource/Ryuta_Tasaki> ;
-    film:genre <http://dbpedia.org/resource/Action_(genre)>,
+    ex:genre <http://dbpedia.org/resource/Action_(genre)>,
         <http://dbpedia.org/resource/Adventure_(genre)>,
         <http://dbpedia.org/resource/Science_fantasy>,
         <http://dbpedia.org/resource/Superhero_fiction> ;
-    film:releaseDate "2000-02-12" .
+    ex:releaseDate "2000-02-12"^^xsd:date .
 
